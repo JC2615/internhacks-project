@@ -82,7 +82,7 @@ a:link {
   text-decoration: none;
 }
 
-.right a:active {
+.right a:link {
   color: #28272c;
 }
 
@@ -94,7 +94,7 @@ a:link {
   color: #a57456;
 }
 
-.left a:active {
+.left a:link {
   color: #e6e3db;
 }
 

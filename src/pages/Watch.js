@@ -2,7 +2,7 @@ import React from 'react';
 import Title from "../components/Title";
 import Icon from "../components/Icon"
 import List from "../components/List"
-
+import "../App.css";
 import movieIcons from "../apis/movieIcons"
 import watchList from "../apis/watchList"
 
@@ -12,7 +12,7 @@ export default function Watch(){
                                   imgHeight="100px" imgWidth="150px" />)
 
     return(
-        <div style={{
+        <div className="LearnLinks" style={{
           height: "100%",
           width: "100vw"
         }}>

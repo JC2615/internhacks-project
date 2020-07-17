@@ -1,11 +1,12 @@
 import React from 'react';
 import Title from '../components/Title';
 import List from "../components/List";
+import "../App.css";
 import {podcasts, otherMedia} from "../apis/podcastList";
 
 export default function Listen() {
   return (
-    <div style={{
+    <div className="LearnLinks" style={{
       height: "100%", 
       width: "100vw"
     }}>

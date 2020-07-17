@@ -6,6 +6,7 @@ import List from "../components/List"
 import bookIcons from "../apis/bookIcons"
 import readingList from "../apis/readingList"
 import otherLibrariesList from "../apis/otherLibrariesList"
+import "../App.css";
 
 export default function Read() {
   const books = bookIcons.map(book => <Icon title={book.title} name={book.author}
@@ -13,7 +14,7 @@ export default function Read() {
                         imgHeight="100px" imgWidth="100%" />)
 
   return (
-    <div style={{
+    <div className="LearnLinks" style={{
       height: "100%",
       width: "100vw"
     }}>

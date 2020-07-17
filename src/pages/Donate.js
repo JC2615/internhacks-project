@@ -1,6 +1,7 @@
 import React from 'react';
 import Title from '../components/Title';
 import donateList from "../apis/donateIcons";
+import "../App.css";
 import Icon from "../components/Icon";
 
 export default function Donate(){
@@ -9,7 +10,7 @@ export default function Donate(){
                                                  imgHeight="200px" imgWidth="100%" />)
 
     return(
-        <div style={{height: "100vh", width: "100vw", backgroundColor: "#28272C", color: "#e6e3db"}}>
+        <div className ="ActionLinks" style={{height: "100vh", width: "100vw", backgroundColor: "#28272C", color: "#e6e3db"}}>
             <Title title="Donate" subheading="Help with financial support"/>
             <div
             style={{

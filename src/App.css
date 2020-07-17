@@ -12,16 +12,29 @@
   align-items: flex-end;
 }
 
-a:link{
+.ActionLinks a:link{
+  text-decoration: none;
+  color: #e6e3db;
+}
+
+.LearnLinks a:link{
   text-decoration: none;
   color: #28272C;
 }
 
-a:visited{
-  color:#28272C;
+.ActionLinks a:visited{
+  color:#e6e3db;
 }
 
-a:hover{
+.LearnLinks a:visited{
+  color: #28272C;
+}
+
+.ActionLinks a:hover{
+  color: #A57456;
+}
+
+.LearnLinks a:hover{
   color: #A57456;
 }
 
@@ -31,6 +44,10 @@ a:hover{
 
 .LearnBar a:hover{
   color: #A57456;
+}
+
+.ActionBar a:visited{
+  color:#28272C;
 }
 
 .ActionBar{

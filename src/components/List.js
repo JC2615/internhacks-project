@@ -1,7 +1,7 @@
 import React from "react";
 import "../pages/List.css";
 
-export default function Title(props) {
+export default function List(props) {
     const data = props.data;
     const listItems = data.map((el) => <li><a href={el.link}><h2>{el.heading}</h2></a></li>);
     return (
