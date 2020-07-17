@@ -1,22 +1,43 @@
 const booksList = [
   {
     id: 0,
-    title: "Cloudy with a Chance of Meatballs",
-    author: "Douglas",
+    title: "Film/TV 1",
+    author: "Producer",
     imgURL: "./20200704_214859.jpg",
     imgCap: "Testing"
   },
   {
-    id: 1,
-    title: "Cloudy with a Chance of Meatballs",
-    author: "Douglas",
+    id: 0,
+    title: "Film/TV 2",
+    author: "Producer",
     imgURL: "./20200704_214859.jpg",
     imgCap: "Testing"
   },
   {
-    id: 2,
-    title: "Cloudy with a Chance of Meatballs",
-    author: "Douglas",
+    id: 0,
+    title: "Film/TV 3",
+    author: "Producer",
+    imgURL: "./20200704_214859.jpg",
+    imgCap: "Testing"
+  },
+  {
+    id: 0,
+    title: "Film/TV 4",
+    author: "Producer",
+    imgURL: "./20200704_214859.jpg",
+    imgCap: "Testing"
+  },
+  {
+    id: 0,
+    title: "Film/TV 5",
+    author: "Producer",
+    imgURL: "./20200704_214859.jpg",
+    imgCap: "Testing"
+  },
+  {
+    id: 0,
+    title: "Film/TV 6",
+    author: "Producer",
     imgURL: "./20200704_214859.jpg",
     imgCap: "Testing"
   },

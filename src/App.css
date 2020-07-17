@@ -12,28 +12,20 @@
   align-items: flex-end;
 }
 
-.ActionBar a:link{
+a:link{
   text-decoration: none;
 }
 
-.ActionBar a:active{
+a:active{
   color: #28272C;
 }
 
-.ActionBar a:visited{
+a:visited{
   color:#28272C;
 }
 
-.ActionBar a:hover{
+a:hover{
   color: #A57456;
-}
-
-.LearnBar a:link{
-  text-decoration: none;
-}
-
-.LearnBar a:active{
-  color: #e6e3db;
 }
 
 .LearnBar a:visited{
@@ -43,17 +35,7 @@
 .LearnBar a:hover{
   color: #A57456;
 }
-/*
-.SearchBar {
-  display: flex;
-  justify-content: flex-end;
-  height: 5%
-}
 
-.SearchBar input {
-  margin: 10px 20px 0 0;
-}
-*/
 .ActionBar{
   display: flex;
   flex: 1;

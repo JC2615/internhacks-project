@@ -5,7 +5,10 @@ import {podcasts, otherMedia} from "../apis/podcastList";
 
 export default function Listen() {
   return (
-    <div style={{ height: "100vh", width: "100vw" }}>
+    <div style={{
+      height: "100%", 
+      width: "100vw"
+    }}>
       <Title title="For Streaming" subheading="Playlists, Podcasts, and Youtube videos for self educating and new insights" />
       <div style={{marginTop: "25px"}}>
         <p style={{width: "14.4%", marginBottom: "25px", textAlign: "right", color: "#A57456"}}>Podcasts</p>

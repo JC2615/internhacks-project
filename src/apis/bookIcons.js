@@ -1,24 +1,35 @@
 const booksList = [
   {
     id: 0,
-    title: "Cloudy with a Chance of Meatballs",
-    author: "Douglas",
+    title: "Book 1",
+    author: "Author",
     imgURL: "./20200704_214859.jpg",
-    imgCap: "Testing"
-  },
-  {
-    id: 1,
-    title: "Cloudy with a Chance of Meatballs",
-    author: "Douglas",
-    imgURL: "./20200704_214859.jpg",
-    imgCap: "Testing"
+    imgCap: "Testing",
+    link: "www.google.com"
   },
   {
     id: 2,
-    title: "Cloudy with a Chance of Meatballs",
-    author: "Douglas",
+    title: "Book 2",
+    author: "Author",
     imgURL: "./20200704_214859.jpg",
-    imgCap: "Testing"
+    imgCap: "Testing",
+    link: ""
+  },
+  {
+    id: 3,
+    title: "Book 3",
+    author: "Author",
+    imgURL: "./20200704_214859.jpg",
+    imgCap: "Testing",
+    link: ""
+  },
+  {
+    id: 4,
+    title: "Book 4",
+    author: "Author",
+    imgURL: "./20200704_214859.jpg",
+    imgCap: "Testing",
+    link: ""
   },
 ]
 

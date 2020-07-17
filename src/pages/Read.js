@@ -8,15 +8,18 @@ import readingList from "../apis/readingList"
 
 export default function Read() {
   const books = bookIcons.map(book => <Icon title={book.title} name={book.author}
-    image={book.imgURL} alt={book.imgCap} height="100px" width="100%" />)
+                        image={book.imgURL} alt={book.imgCap} link={book.link}
+                        imgHeight="100px" imgWidth="100%" />)
 
   return (
-    <div style={{height: "100%", width: "100vw"}}>
+    <div style={{
+      height: "100%",
+      width: "100vw"
+    }}>
       <Title title="Reading List" subheading="Curated list of Books, Poems, Articles, and PDF libraries exploring race & society"/>
       <div style={{
         display: "flex",
         justifyContent: "space-evenly",
-        flexWrap: "wrap",
       }}>
         {books}
       </div>

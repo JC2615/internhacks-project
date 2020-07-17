@@ -7,8 +7,9 @@ import movieIcons from "../apis/movieIcons"
 import watchList from "../apis/watchList"
 
 export default function Watch(){
-    const books = movieIcons.map(book => <Icon title={book.title} name={book.author}
-      image={book.imgURL} alt={book.imgCap} height="100px" width="100%" />)
+    const movies = movieIcons.map(movie => <Icon title={movie.title} name={movie.author}
+                                  image={movie.imgURL} alt={movie.imgCap} link={movie.link}
+                                  imgHeight="100px" imgWidth="100%" />)
 
     return(
         <div style={{
@@ -21,7 +22,7 @@ export default function Watch(){
               justifyContent: "space-evenly",
               flexWrap: "wrap",
             }}>
-              {books}
+              {movies}
             </div>
             <List data={watchList} alignment="left"/>
         </div>
