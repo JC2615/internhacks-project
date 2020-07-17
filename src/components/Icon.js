@@ -6,8 +6,8 @@ export default function Icon(props){
         display: "flex",
         flexDirection: "column",
         textAlign: "center",
-        width: "132.5px",
-        height: "175px",
+        width: "auto",
+        height: "auto",
         margin: "50px"
       }}>
           <a href={props.link}>
