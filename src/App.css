@@ -50,6 +50,10 @@
   color:#28272C;
 }
 
+.ActionBar a:hover{
+  color: #A57456;
+}
+
 .ActionBar{
   display: flex;
   flex: 1;

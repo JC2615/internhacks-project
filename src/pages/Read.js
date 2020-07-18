@@ -11,7 +11,7 @@ import "../App.css";
 export default function Read() {
   const books = bookIcons.map(book => <Icon title={book.title} name={book.author}
                         image={book.imgURL} alt={book.imgCap} link={book.link}
-                        imgHeight="100px" imgWidth="100%" />)
+                        imgHeight="175px" imgWidth="125px" />)
 
   return (
     <div className="LearnLinks" style={{
@@ -22,6 +22,7 @@ export default function Read() {
       <div style={{
         display: "flex",
         justifyContent: "space-evenly",
+        flexWrap: "wrap"
       }}>
         {books}
       </div>

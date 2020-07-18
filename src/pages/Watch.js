@@ -9,7 +9,7 @@ import watchList from "../apis/watchList"
 export default function Watch(){
     const movies = movieIcons.map(movie => <Icon title={movie.title} name={movie.author}
                                   image={movie.imgURL} alt={movie.imgCap} link={movie.link}
-                                  imgHeight="100px" imgWidth="150px" />)
+                                  imgHeight="175px" imgWidth="125px" />)
 
     return(
         <div className="LearnLinks" style={{

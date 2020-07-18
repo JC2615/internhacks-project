@@ -8,7 +8,7 @@ export default function Icon(props){
         textAlign: "center",
         width: "auto",
         height: "auto",
-        margin: "50px"
+        margin: "50px",
       }}>
           <a href={props.link}>
           <img src={props.image} alt={props.caption}
