@@ -6,9 +6,9 @@ export default function Icon(props){
         display: "flex",
         flexDirection: "column",
         textAlign: "center",
-        width: "132.5px",
-        height: "175px",
-        margin: "50px"
+        width: "auto",
+        height: "auto",
+        margin: "50px",
       }}>
           <a href={props.link}>
           <img src={props.image} alt={props.caption}

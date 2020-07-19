@@ -5,14 +5,16 @@ import List from "../components/List"
 
 import bookIcons from "../apis/bookIcons"
 import readingList from "../apis/readingList"
+import otherLibrariesList from "../apis/otherLibrariesList"
+import "../App.css";
 
 export default function Read() {
   const books = bookIcons.map(book => <Icon title={book.title} name={book.author}
                         image={book.imgURL} alt={book.imgCap} link={book.link}
-                        imgHeight="100px" imgWidth="100%" />)
+                        imgHeight="175px" imgWidth="125px" />)
 
   return (
-    <div style={{
+    <div className="LearnLinks" style={{
       height: "100%",
       width: "100vw"
     }}>
@@ -20,10 +22,12 @@ export default function Read() {
       <div style={{
         display: "flex",
         justifyContent: "space-evenly",
+        flexWrap: "wrap"
       }}>
         {books}
       </div>
       <List data={readingList} alignment="left"/>
+      <List data={otherLibrariesList} alignment="left" title="Other Libraries" />
     </div>
   );
 }

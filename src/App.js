@@ -14,11 +14,8 @@ import Home from "./pages/Home";
 import NavBar from "./components/NavBar";
 
 function App() {
-  let bgColor = "#e6e3db";
 
-  if(window.location === "/protest" || window.location === "/petitions" || window.location === "/contact" || window.location === "/donate"){
-    bgColor = "#28272C";
-  }
+  const bgColor = "#e6e3db";
 
   return (
     <div className="App" style={{backgroundColor: bgColor}}>

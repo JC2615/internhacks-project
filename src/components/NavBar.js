@@ -10,9 +10,6 @@ export default function NavBar(props){
   }
     return(
       <div>
-        {/* <div className="SearchBar">
-          <input type="text" value="Search" />
-        </div> */}
         <div style={{ display:"flex", justifyContent: "center", backgroundColor: bgColor }}>
             <nav className="Navbar">
               <div className="LearnBar">
