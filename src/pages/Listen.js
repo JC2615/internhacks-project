@@ -12,7 +12,7 @@ export default function Listen() {
     }}>
       <Title title="For Streaming" subheading="Playlists, Podcasts, and Youtube videos for self educating and new insights" />
       <div style={{ marginTop: "25px"}}>
-        <p style={{width: "14.4%", marginBottom: "25px", textAlign: "right", color: "#A57456"}}>Podcasts</p>
+        <p style={{width: "300px", marginBottom: "25px", textAlign: "right", color: "#A57456"}}>Podcasts</p>
         <div style={{display: "flex", flexWrap: "wrap", justifyContent: "space-evenly"}}>
           {[podcasts[0], podcasts[1], podcasts[2]]}
         </div>
