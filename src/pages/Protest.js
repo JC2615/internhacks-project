@@ -15,7 +15,7 @@ export default function Protest(){
           backgroundColor: "#28272C",
           color: "#e6e3db"
         }}>
-            <Title title="Protest Information" subheading="Protest Info"/>
+            <Title title="Protest Information" subheading="Get Active!"/>
             <div className="NoHover">
             <List data={protestInfo} alignment="center" title="How to Find Protests Near You:"/>
             </div>
