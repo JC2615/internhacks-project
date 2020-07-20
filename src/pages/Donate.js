@@ -1,7 +1,7 @@
 import React from 'react';
 import Title from '../components/Title';
 import List from "../components/List";
-import {donates, donateNoTitle} from "../apis/donateIcons";
+import {donates, donateNoTitle, donateWithTitle, otherNonProfits, majorOrganizations} from "../apis/donateIcons";
 import "../pages/List.css";
 
 
@@ -15,6 +15,9 @@ export default function Donate(){
                     {[donates[0], donates[1], donates[2], donates[3]]}
                 </div>
                 <List data={donateNoTitle} alignment="left"/>
+                <List data={donateWithTitle} alignment="left" title="Community Organizations"/>
+                <List data={otherNonProfits} alignment="left" title="Other Non-Profits"/>
+                <List data={majorOrganizations} alignment="left" title="Major Organizations"/>
             </div>
         </div>
     );
