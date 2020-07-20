@@ -16,7 +16,7 @@ export const textAndCall = [
     },
     {
         id: 3,
-        heading: "Minneapolis Mayor's office (612) 673-2100",
+        heading: "Minneapolis Mayor's Office (612) 673-2100",
         link: null
     },
     {
