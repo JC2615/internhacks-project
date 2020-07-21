@@ -2,6 +2,8 @@
   text-align: center;
   color: #28272C;
   font-family: "futura-pt";
+  display: flex;
+  flex-direction: column;
 }
 
 .Navbar{
