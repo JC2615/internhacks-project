@@ -84,6 +84,7 @@ a:link {
 
 .right a:link {
   color: #28272c;
+  text-decoration: none;
 }
 
 .right a:visited {
@@ -96,6 +97,7 @@ a:link {
 
 .left a:link {
   color: #e6e3db;
+  text-decoration: none;
 }
 
 .left a:visited {
@@ -123,11 +125,11 @@ a:link {
     height: 50%;
     width: 100%;
   }
-  p {
+  .HomeBody p {
     font-size: 12px;
   }
 
-  h1 {
+  .HomeBody h1 {
     font-size: 48px;
   }
 }

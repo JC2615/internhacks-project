@@ -1,12 +1,12 @@
 import React from "react";
 
-export default function Title(props) {
+export default function Entry(props) {
   return (
     <div style={{
       display: "flex",
       flexDirection: "column",
       textAlign: "left",
-      width: "90%",
+      width: "auto",
       height: "auto",
       margin: "50px"
     }}>
