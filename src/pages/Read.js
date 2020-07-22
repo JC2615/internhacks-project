@@ -16,7 +16,7 @@ export default function Read() {
   return (
     <div className="LearnLinks" style={{
       height: "100%",
-      width: "100vw"
+      width: "100%"
     }}>
       <Title title="Reading List" subheading="Curated list of Books, Poems, Articles, and PDF libraries exploring race & society" />
       <div style={{

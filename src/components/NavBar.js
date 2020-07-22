@@ -14,7 +14,7 @@ export default function NavBar() {
         <nav className="Navbar">
           <div className="LearnBar">
             <div className="LearnNavHeading">Learn</div>
-            <div className="LearnNavText ActionLinks">
+            <div className="LearnNavText">
               <Link to="/history">History</Link>
               <Link to="/read">Read</Link>
               <Link to="/watch">Watch</Link>
@@ -25,7 +25,7 @@ export default function NavBar() {
 
           <div className="ActionBar">
             <div className="ActionNavHeading">Action</div>
-            <div className="ActionNavText LearnLinks">
+            <div className="ActionNavText">
               <Link to="/donate">Donate</Link>
               <Link to="/petitions">Petition</Link>
               <Link to="/protest">Protest</Link>

@@ -8,7 +8,7 @@ export default function Listen() {
   return (
     <div className="LearnLinks" style={{
       height: "100%",
-      width: "100vw"
+      width: "100%"
     }}>
       <Title title="For Streaming" subheading="Playlists, Podcasts, and Youtube videos for self educating and new insights" />
       <div style={{ display: "flex", marginTop: "25px" , flexDirection: "column", width: "fit-content(50%)"}}>

@@ -56,6 +56,16 @@
   color: #a57456;
 }
 
+.ActionBar a:link{
+  color: #28272c;
+  text-decoration: none;
+}
+
+.LearnBar a:link{
+  color: #e6e3db;
+  text-decoration: none;
+}
+
 .ActionBar {
   display: flex;
   flex: 1;

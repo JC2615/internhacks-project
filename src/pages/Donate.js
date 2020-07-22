@@ -8,7 +8,7 @@ import "../pages/List.css";
 export default function Donate() {
 
     return (
-        <div className="ActionLinks" style={{ height: "100%", width: "100vw", backgroundColor: "#28272C", color: "#e6e3db" }}>
+        <div className="ActionLinks" style={{ height: "100%", width: "100%", backgroundColor: "#28272C", color: "#e6e3db" }}>
             <Title title="Donate" subheading="Help with financial support" />
             <div style={{ marginTop: "25px" }}>
                 <div style={{ display: "flex", justifyContent: "space-evenly", flexWrap: "wrap" }}>

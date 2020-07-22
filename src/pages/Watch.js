@@ -14,7 +14,7 @@ export default function Watch() {
   return (
     <div className="LearnLinks" style={{
       height: "100%",
-      width: "100vw"
+      width: "100%"
     }}>
       <Title title="Watch List" subheading="Selection of TV Shows and Movies for education and entertainment" />
       <div style={{

@@ -11,7 +11,7 @@ export default function Protest() {
     return (
         <div className="ActionLinks" style={{
             height: "100%",
-            width: "100vw",
+            width: "100%",
             backgroundColor: "#28272C",
             color: "#e6e3db"
         }}>

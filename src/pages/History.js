@@ -20,7 +20,7 @@ export default function History() {
   return (
     <div className="LearnLinks" style={{
       height: "100%",
-      width: "100vw"
+      width: "100%"
     }}>
       <Title title="Black History" subheading="Fact of the day: " extra={fact.info} />
       {entries}
