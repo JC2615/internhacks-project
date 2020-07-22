@@ -12,7 +12,7 @@ export default function Contact() {
                 <List data={textAndCall} alignment="left" title="Contacts" />
             </div>
             <div className="Hover">
-                <List data={emailList} alignment="left"/>
+                <List data={emailList} alignment="left" title="Email"/>
             </div>
         </div>
     );
