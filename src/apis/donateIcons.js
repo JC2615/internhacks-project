@@ -1,10 +1,10 @@
 import React from 'react';
 
 export const donates = [
-    <embed title="gfm1" height="500px" width="50%" src="https://www.gofundme.com/mvc.php?route=widgets/mediawidget&fund=justicefordavidmcatee&image=1&coinfo=1&preview=1"></embed>,
-    <embed title="gfm2" height="500px" width="50%" src="https://www.gofundme.com/mvc.php?route=widgets/mediawidget&fund=in-memory-of-tony-mcdade&image=1&coinfo=1&preview=1"></embed>,
-    <embed title="gfm3" height="500px" width="50%" src="https://www.gofundme.com/mvc.php?route=widgets/mediawidget&fund=elijah-mcclain&image=1&coinfo=1&preview=1"></embed>,
-    <embed title="gfm4" height="500px" width="50%" src="https://www.gofundme.com/mvc.php?route=widgets/mediawidget&fund=official-gofundme-for-rayshard-brooks&image=1&coinfo=1&preview=1"></embed>,
+    <embed title="gfm1" height="500" width="400" src="https://www.gofundme.com/mvc.php?route=widgets/mediawidget&fund=justicefordavidmcatee&image=1&coinfo=1&preview=1"></embed>,
+    <embed title="gfm2" height="500" width="400" src="https://www.gofundme.com/mvc.php?route=widgets/mediawidget&fund=in-memory-of-tony-mcdade&image=1&coinfo=1&preview=1"></embed>,
+    <embed title="gfm3" height="500" width="400" src="https://www.gofundme.com/mvc.php?route=widgets/mediawidget&fund=elijah-mcclain&image=1&coinfo=1&preview=1"></embed>,
+    <embed title="gfm4" height="500" width="400" src="https://www.gofundme.com/mvc.php?route=widgets/mediawidget&fund=official-gofundme-for-rayshard-brooks&image=1&coinfo=1&preview=1"></embed>,
 ]
 
 export const donateNoTitle = [

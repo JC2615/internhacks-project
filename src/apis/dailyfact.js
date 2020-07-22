@@ -27,7 +27,7 @@ async function getDailyFact() {
   const base = `http://blackhistorydaily.com/on_this_day/${month}_${day}/`;
   const infoBase = "http://blackhistorydaily.com/";
 
-  const factInfo = { title: "", info: "" , date: ""};
+  const factInfo = { title: "", info: "", date: "" };
 
   function getLinkAndTitle() {
     const $ = cheerio.load(request.data);

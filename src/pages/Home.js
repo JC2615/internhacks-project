@@ -1,12 +1,11 @@
 import React from "react";
 import "./Home.css";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 /*
 let HomeBody = {
   margin: "0 0",
   display: "flex",
-  flexDirection: "row",
   height: "100vh",
   width: "100vw"
 }

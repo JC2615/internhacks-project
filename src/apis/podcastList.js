@@ -1,12 +1,12 @@
 import React from 'react';
 
 export const podcasts = [
-    <iframe title="pcast1" src="https://open.spotify.com/embed-podcast/show/7j5MhJCMBvOjF1Asi9LPLX" width="20%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>,
-    <iframe title="pcast2" src="https://open.spotify.com/embed-podcast/show/3bExJ9JQpkwNhoHvaIIuyV" width="20%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>,
-    <iframe title="pcast3" src="https://open.spotify.com/embed-podcast/show/5CEVNLkyQ1kAx2MTSJZJLP" width="20%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>,
-    <iframe title="pcast4" src="https://open.spotify.com/embed-podcast/show/4hI3rQ4C0e15rP3YKLKPut" width="20%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>,
-    <iframe title="pcast5" src="https://open.spotify.com/embed-podcast/show/1jFYnTSP29jx6mzWvysW3Q" width="20%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>,
-    <iframe title="pcast6" src="https://open.spotify.com/embed-podcast/show/6rymgLzY4shR2sCyTDDPWC" width="20%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <iframe title="pcast1" src="https://open.spotify.com/embed-podcast/show/7j5MhJCMBvOjF1Asi9LPLX" width="350" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>,
+    <iframe title="pcast2" src="https://open.spotify.com/embed-podcast/show/3bExJ9JQpkwNhoHvaIIuyV" width="350" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>,
+    <iframe title="pcast3" src="https://open.spotify.com/embed-podcast/show/5CEVNLkyQ1kAx2MTSJZJLP" width="350" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>,
+    <iframe title="pcast4" src="https://open.spotify.com/embed-podcast/show/4hI3rQ4C0e15rP3YKLKPut" width="350" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>,
+    <iframe title="pcast5" src="https://open.spotify.com/embed-podcast/show/1jFYnTSP29jx6mzWvysW3Q" width="350" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>,
+    <iframe title="pcast6" src="https://open.spotify.com/embed-podcast/show/6rymgLzY4shR2sCyTDDPWC" width="350" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 ]
 
 export const otherMedia = [
@@ -49,5 +49,5 @@ export const otherMedia = [
         id: 7,
         heading: "An Interview With the Founders of Black Lives Matter",
         link: "https://www.youtube.com/watch?v=tbicAmaXYtM&feature=emb_title"
-    }  
-  ]
+    }
+]

@@ -108,15 +108,15 @@ export const resources = [
         id: 21,
         heading: "List of Anti-Racism Resources by Dazed",
         link: "https://www.dazeddigital.com/politics/article/49420/1/a-running-list-of-anti-racism-resources-protest-police-brutality-george-floyd"
-    },  
+    },
     {
         id: 22,
         heading: "For Protestors",
         link: "https://blacklivesmatters.carrd.co/#protesters"
-    },  
+    },
     {
         id: 23,
         heading: "Self-Care Tips for Black People Who Are Struggling by Vice",
         link: "https://www.vice.com/en_us/article/g5pgmq/self-care-tips-for-black-people-struggling-from-painful-week"
-    },    
+    },
 ]

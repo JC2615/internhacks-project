@@ -11,7 +11,7 @@ export default function List(props) {
             textAlign: props.alignment,
             margin: "25px"
         }}>
-            <p style={{color: "#A57456"}}>{props.title}</p>
+            <p style={{ color: "#A57456" }}>{props.title}</p>
             <ul className="no-bullets">{listItems}</ul>
         </div>
     )
