@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import {Link} from "react-router-dom";
 
+/*
 let HomeBody = {
   margin: "0 0",
   display: "flex",
@@ -9,10 +10,11 @@ let HomeBody = {
   height: "100vh",
   width: "100vw"
 }
+ */
 
 export default function Home() {
   return (
-    <div style={HomeBody}
+    <div className={"HomeBody"}
     >
       <button type="button" className="left">
         <div className="leftcontent">

@@ -1,3 +1,4 @@
+
 /*Removes outline when you click in google chrome*/
 *:focus{
     outline: none;
@@ -5,7 +6,7 @@
 /*Turns body into flex-box for buttons
 Makes body the size of the viewport
 */
-body {
+.HomeBody {
   margin: 0 0;
   display: flex;
   flex-direction: row;
@@ -104,4 +105,30 @@ a:link {
 
 .left a:hover {
   color: #a57456;
+}
+
+/*Makes home page mobile friendly. Arranges buttons vertically*/
+
+@media only screen and (max-width: 575px) {
+  .HomeBody {
+    margin: 0 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+  }
+  button {
+    border-width: 0;
+    padding: 0 0;
+    height: 50%;
+    width: 100%;
+  }
+  p {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
 }
