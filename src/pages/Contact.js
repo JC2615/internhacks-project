@@ -2,7 +2,7 @@ import React from 'react';
 import Title from '../components/Title';
 import List from "../components/List"
 import "../App.css";
-import { textAndCall } from "../apis/contactList";
+import {emailList, textAndCall} from "../apis/contactList";
 
 export default function Contact() {
     return (
@@ -10,6 +10,9 @@ export default function Contact() {
             <Title title="Text, Call, Email" subheading="Contact your local, county, state, and/or federal representatives" />
             <div className="NoHover">
                 <List data={textAndCall} alignment="left" title="Contacts" />
+            </div>
+            <div className="Hover">
+                <List data={emailList} alignment="left"/>
             </div>
         </div>
     );
