@@ -7,7 +7,7 @@ export default function Resources() {
     return (
 
         <div className="LearnLinks" style={{ width: "100%" }}>
-            <Title title="More Resources" subheading="Not enough? Here is an archive of more masterlists and toolkits we reccomend" />
+            <Title title="More Resources" subheading="Not enough? Here is an archive of more masterlists and toolkits we recommend" />
             <List data={resources} alignment="left" />
         </div>
     );
