@@ -49,5 +49,5 @@ export const otherMedia = [
         id: 7,
         heading: "An Interview With the Founders of Black Lives Matter",
         link: "https://www.youtube.com/watch?v=tbicAmaXYtM&feature=emb_title"
-    }  
-  ]
+    }
+]

@@ -1,12 +1,12 @@
 .App {
   text-align: center;
-  color: #28272C;
+  color: #28272c;
   font-family: "futura-pt";
   display: flex;
   flex-direction: column;
 }
 
-.Navbar{
+.Navbar {
   display: flex;
   width: 100%;
   height: 150px;
@@ -14,83 +14,83 @@
   align-items: flex-end;
 }
 
-.ActionLinks a:link{
+.ActionLinks a:link {
   text-decoration: none;
   color: #e6e3db;
 }
 
-.LearnLinks a:link{
+.LearnLinks a:link {
   text-decoration: none;
-  color: #28272C;
+  color: #28272c;
 }
 
-.ActionLinks a:visited{
-  color:#e6e3db;
+.ActionLinks a:visited {
+  color: #e6e3db;
 }
 
-.LearnLinks a:visited{
-  color: #28272C;
+.LearnLinks a:visited {
+  color: #28272c;
 }
 
-.ActionLinks a:hover{
-  color: #A57456;
+.ActionLinks a:hover {
+  color: #a57456;
 }
 
-.LearnLinks a:hover{
-  color: #A57456;
+.LearnLinks a:hover {
+  color: #a57456;
 }
 
-.LearnBar a:visited{
-  color:#e6e3db;
+.LearnBar a:visited {
+  color: #e6e3db;
 }
 
-.LearnBar a:hover{
-  color: #A57456;
+.LearnBar a:hover {
+  color: #a57456;
 }
 
-.ActionBar a:visited{
-  color:#28272C;
+.ActionBar a:visited {
+  color: #28272c;
 }
 
-.ActionBar a:hover{
-  color: #A57456;
+.ActionBar a:hover {
+  color: #a57456;
 }
 
-.ActionBar{
+.ActionBar {
   display: flex;
   flex: 1;
   height: 100px;
   background-color: #e6e3db;
   justify-content: space-evenly;
   align-items: center;
-  color: #28272C;
+  color: #28272c;
   margin: 0 30px;
 }
 
-.LearnBar{
+.LearnBar {
   display: flex;
   flex: 1;
   height: 100px;
-  background-color: #28272C;
+  background-color: #28272c;
   justify-content: space-evenly;
   align-items: center;
   color: #e6e3db;
   margin: 0 30px;
 }
 
-.ActionNavHeading{
+.ActionNavHeading {
   position: absolute;
   top: 60px;
   font-size: x-large;
 }
 
-.LearnNavHeading{
+.LearnNavHeading {
   position: absolute;
   top: 60px;
   font-size: x-large;
 }
 
-.LearnNavText{
+.LearnNavText {
   display: flex;
   width: 100%;
   height: 50%;
@@ -98,7 +98,7 @@
   align-items: flex-end;
 }
 
-.ActionNavText{
+.ActionNavText {
   display: flex;
   width: 100%;
   height: 50%;
@@ -106,6 +106,18 @@
   align-items: flex-end;
 }
 
-.NoHover a:hover{
-  color: #e6e3db
+.NoHover a:hover {
+  color: #e6e3db;
+}
+
+@media only screen and (max-width: 575px) {
+  .Navbar {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .MobileBar {
+    display: none;
+  }
 }

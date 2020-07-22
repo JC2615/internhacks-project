@@ -1,0 +1,19 @@
+#toggler {
+  width: 75px;
+}
+
+.bg-darker {
+  background-color: #28272c;
+}
+
+.bg-lighter {
+  background-color: #e6e3db;
+}
+
+.navbar-darker {
+  color: #e6e3db;
+}
+
+.navbar-lighter {
+  color: #28272c;
+}
