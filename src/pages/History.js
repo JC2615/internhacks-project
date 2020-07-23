@@ -15,7 +15,7 @@ export default function History() {
     });
   }, []);
 
-  const entries = historyEntries.map(data => <Entry key={data.id} title={data.title} text={data.info} />)
+  const entries = historyEntries.map(data => <Entry key={data.id} title={data.title} text={data.info} link={data.link} />)
 
   return (
     <div className="LearnLinks" style={{

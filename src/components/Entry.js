@@ -10,7 +10,7 @@ export default function Entry(props) {
       height: "auto",
       margin: "50px"
     }}>
-      <h2>{props.title}</h2>
+      <a href={props.Link}><h2>{props.title}</h2></a>
       <p>{props.text}</p>
     </div>
   )
