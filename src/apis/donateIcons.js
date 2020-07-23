@@ -23,7 +23,7 @@ export const donateNoTitle = [
 export const donateWithTitle = [
     {
         id: 0,
-        heading: 'List of Community Organizations with less attention, fund the broader movement!',
+        heading: 'List of Community Organizations with Less Attention, Fund the Broader Movement!',
         link: "https://docs.google.com/document/d/1yLWGTQIe3967hdc9RSxBq5s6KKZHe-3_mWp5oemd7OA/edit"
     },
     {
@@ -33,7 +33,7 @@ export const donateWithTitle = [
     },
     {
         id: 2,
-        heading: "Black Owned Alternatives to companies using prison labor",
+        heading: "Black Owned Alternatives to Companies Using Prison Labor",
         link: null
     },
     {

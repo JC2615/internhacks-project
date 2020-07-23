@@ -21,7 +21,7 @@ export const petitionsList = [
     },
     {
         id: 4,
-        heading: 'Tell Congress to protect Black-owned businesses',
+        heading: 'Tell Congress to Protect Black-Owned Businesses',
         link: "https://act.colorofchange.org/sign/blackbusiness-congress"
     },
     {
@@ -91,7 +91,7 @@ export const petitionsList = [
     },
     {
         id: 18,
-        heading: 'Consequences for excessive force used on Quentin Suttles',
+        heading: 'Consequences for Excessive Force Used on Quentin Suttles',
         link: "https://www.change.org/p/john-j-flynn-consequences-for-excessive-force-used-on-quentin-suttles?utm_content=cl_sharecopy_22133703_en-US%3Av1&recruiter=319353471&recruited_by_id=129af720-1490-11e5-9c6e-8515d331dad3&utm_source=share_petition&utm_medium=copylink&utm_campaign=psf_combo_share_initial&utm_term=psf_combo_share_abi"
     },
     {
@@ -111,12 +111,12 @@ export const petitionsList = [
     },
     {
         id: 22,
-        heading: 'Willie Simmons has served 38 years for a $9 robbery',
+        heading: 'Willie Simmons has Served 38 Years for a $9 Robbery',
         link: "https://www.change.org/p/alabama-governor-kay-ivey-willie-simmons-has-served-38-years-for-a-9-robbery?utm_content=cl_sharecopy_19727323_en-US%3Av3&recruiter=319353471&recruited_by_id=129af720-1490-11e5-9c6e-8515d331dad3&utm_source=share_petition&utm_medium=copylink&utm_campaign=psf_combo_share_initial&utm_term=psf_combo_share_abi"
     },
     {
         id: 23,
-        heading: 'Ban the use of rubber bullets',
+        heading: 'Ban the Use of Rubber Bullets',
         link: "https://www.change.org/p/un-and-us-government-ban-the-use-of-rubber-bullets?recruiter=922712485&recruited_by_id=62d8f120-fdb6-11e8-8dbd-0dee42fd9442&utm_source=share_petition&utm_medium=copylink&utm_campaign=petition_dashboard"
     },
     {
