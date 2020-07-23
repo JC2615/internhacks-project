@@ -13,12 +13,11 @@ export default function Icon(props) {
       <a href={props.link}>
         <img src={props.image} alt={props.caption}
           width={props.imgWidth} height={props.imgHeight} />
+        <h2 style={{
+          fontSize: "19px"
+        }}>{props.title}</h2>
+        <p style={{ fontSize: "17px" }}>{props.name}</p>
       </a>
-      <h2 style={{
-        fontSize: "19px"
-
-      }}>{props.title}</h2>
-      <p style={{ fontSize: "17px" }}>{props.name}</p>
     </div>
   )
 }
