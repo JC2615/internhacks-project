@@ -131,3 +131,7 @@
     display: none;
   }
 }
+
+body {
+  position: relative
+}
