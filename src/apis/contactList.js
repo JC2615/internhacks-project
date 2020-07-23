@@ -46,7 +46,7 @@ export const emailList = [
     },
     {
         id: 2,
-        heading: "Where does your state stand",
+        heading: "Where Does Your State Stand",
         link: "https://www.joincampaignzero.org/#action"
     },
     {

@@ -31,7 +31,7 @@ const otherLibrariesList = [
     },
     {
         id: 6,
-        heading: "bell hooks Library",
+        heading: "Bell Hooks Library",
         link: "https://drive.google.com/drive/u/0/folders/11uuopK3c1k1F7wx5H1tArDz13DXlqVde"
     },
     {
