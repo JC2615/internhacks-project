@@ -13,7 +13,7 @@ export const otherMedia = [
     {
         id: 0,
         heading: "OUR PLAYLIST",
-        link: "https://open.spotify.com/playlist/4ga8luVYUk2zMTOSHFcloF?si=53upyGzoSh-Pyh18WUXXSA"
+        link: "https://open.spotify.com/playlist/6vFsII7uATMYnTHS3r2Jky?si=3PoKZhiiQ1G-iSBjSlAkLA"
     },
     {
         id: 1,
