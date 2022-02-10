@@ -11,7 +11,7 @@
     "cheerio": "^1.0.0-rc.3",
     "firebase": "^7.15.5",
     "local-web-server": "^4.2.1",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.2.2",
     "react-bootstrap-validation": "^0.1.11",
